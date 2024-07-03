@@ -1,0 +1,54 @@
+/* Resume Design */
+.resume-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-photo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h2 {
+  text-align: center;
+ 
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h3, h4 {
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0 0 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.container {
+  text-align: left;
+}
